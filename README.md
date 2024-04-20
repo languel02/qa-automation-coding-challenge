@@ -47,3 +47,48 @@ Help Adam gain confidence in further development by automatically testing the mo
 - Please submit a link to your finished repository when you are ready
 
 ## Good luck and happy coding! :)
+
+
+
+
+COMPLETADO
+
+# QA Automation Coding Challenge Completed
+
+# TestCases Created for the Get Github App
+
+1. Validate the Application Title displays correctly on the UI
+2. Ensuring the Application UI Elements are Visible, Fixed and display Correctly
+3. Validate Text Input Title is displayed
+4. Testing Text Input Field accepts Alphanumeric Values
+5. Validating the GitHub User Search Functionality returns results when putting user input by Clicking "Enter" on the Keyboard
+6. Validating the GitHub User Search Functionality returns results when entering User input by Hitting on the "Go" button
+7. Ensuaring the App returns No Results Found message when searching with empty input field
+8. Testing that the Repos results found for x Users is Clickable and redirecting to github project Correctly
+9. Validating the App displays the Number of Repos found for x Users
+10. Testing the Repos results display as a List and have a description for x Students
+11. Validate Students Repos are found by entering the email
+
+
+We took three TestCases out of these to automated using the following technologies: Cypress tool with JavaScript, Cucumber feature to have readable and understandable test scenarios, and visual code IDE to run with node.
+
+
+# Automated TestCases
+
+Automation testing Script are under github-stepDefinitions folder
+
+The features/testcases are under integration folder
+
+1. Validate the Application Title displays correctly on the UI ('[ValidateGithubAppTitle.feature](cypress/integration/ValidateGithubAppTitle.feature)')
+2. Validating the GitHub User Search Functionality returns results when entering User input by Hitting on the "Go" button ([GithubReposSearch.feature](cypress/integration/GithubReposSearch.feature))
+3. Testing Text Input Field accepts Alphanumeric Values ([ValidateSearchAlphaNumber.feature](cypress/integration/ValidateSearchAlphaNumber.feature))
+
+
+Setup
+Fork and clone the project
+Run yarn to install the dependencies needed
+Install cypress using: npm cypress install
+Install cucumber preprocesor
+Complete config files and package.json
+Run yarn start to open the Get Github App
+Then npx cypress open
